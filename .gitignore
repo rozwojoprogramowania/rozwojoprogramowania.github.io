@@ -1,0 +1,80 @@
+###############################################
+# PHP default
+
+# ignore IDE/hidden/OS cache files
+nbproject
+nb-configuration.xml
+Session.vim
+*.tmproj
+*.tmproject
+tmtags
+Desktop.ini
+
+# ignore Composer downloads
+/vendor/*
+
+# keep some hiddens
+!.htaccess
+!/.gitignore
+!/.travis.yml
+
+###############################################
+# Build Artifacts
+**/bin/
+**/build/
+
+###############################################
+# Eclipse Project Files
+.classpath
+.project
+**/.settings/
+**/target/
+
+###############################################
+# IntelliJ IDEA Files
+
+**/*.ipr
+**/*.iws
+**/*.idea/**/dictionaries
+**/*.idea/inspectionProfiles
+**/*.idea/libraries
+**/*.idea/**/workspace.xml
+**/*.idea/**/usage.statistics.xml
+**/*.idea/**/vcs.xml
+**/*.idea/**/tasks.xml
+**/*.idea/**/shelf
+
+## Plugin-specific files:
+**/*.iml
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/terminal.xml
+.idea/**/dbnavigator.xml
+.idea/**/libraries
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+###############################################
+# Operating System Files
+*.DS_Store
+ehthumbs.db
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
